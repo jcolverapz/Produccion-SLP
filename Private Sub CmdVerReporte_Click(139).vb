@@ -3,6 +3,7 @@ Private Sub CmdVerReporte_Click()
 '''    MsgBox "Verifique las fechas, no puede sacar reportes para fechas pasadas.", vbExclamation, MSG
 '''    Exit Sub
 '''End If
+'Cambio 15 may 2024
 If Me.DTPF_Ini.Value > Me.DTPF_Fin.Value Then
     MsgBox "Verifique las fechas, la Inicial no puede ser mayor que la Final.", vbExclamation, MSG
     Exit Sub
